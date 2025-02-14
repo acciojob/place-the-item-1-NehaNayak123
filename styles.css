@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	justify-content:space-between;
+	p{
+		width:100px;
+		height:100px;
+	}
+	p:first-child{
+		background-color:green;
+	}
+	p:nth-child(2){
+		background-color:red;
+	}
+	p:last-child{
+		background-color:blue;
+	}
+}
+.div2{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	p{	
+	background-color:green;
+	height:100px;
+	width:100px;
+	margin:2px;
+	}
+	p:nth-last-child(2){ background-color:red;}
+	p:nth-last-child(1){background-color:blue;}
+}
